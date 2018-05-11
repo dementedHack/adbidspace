@@ -1,0 +1,113 @@
+<div id="status">
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">{{title}}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Documentation
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container-fluid">
+	<div class="row container">
+		<div class="col-md-4">
+		</div>
+		<div class="col-md-8">
+			<h1>Ads Bids Space Login</h1>
+	    	<hr>
+		</div>
+	</div>
+  <div class="row container">
+    <div class="col-md-4">
+      <h2>Buy <span style="white-space: nowrap"><i class="fas fa-credit-card"></i></span></h2>
+      <h2>Sell <span style="white-space: nowrap"><i class="fas fa-usd"></i></span></h2>
+      <h2>Analyze <span style="white-space: nowrap"><i class="fas fa-bar-chart"></i></span></h2>
+    </div> <!-- end of col-->
+    <div class="col-md-4">
+      <h2>Existing User:</h2>
+      <form>
+		    <div class="form-group">
+		      <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+		    </div>
+		    <div class="form-group">
+		      <input type="password" class="form-control" id="InputPassword" placeholder="Password">
+		    </div>
+		  </form>
+      <hr>
+      <button type="button" class="btn btn-primary" id="loginButton">Login</button>
+      <hr>
+    </div><!-- end of col -->
+    <div class="col-md-4">
+		  <h2>Create Account:</h2>
+      <form>
+        <div class="form-group" id="newUserForm">
+      		<input type="firstName" class="form-control" id="NewInputFirstName" aria-describedby="emailHelp" placeholder="Enter first name">
+      	</div>
+      	<div class="form-group">
+      		<input type="lastName" class="form-control" id="NewInputLastName" aria-describedby="emailHelp" placeholder="Enter last name">
+      	</div>
+      	<div class="form-group">
+      		<input type="email" class="form-control" id="NewInputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+      	</div>
+      	<div class="form-group">
+      		<input type="password" class="form-control" id="NewInputPassword" placeholder="Password">
+      	</div>
+		    <div class="form-group">
+    		  <div class="col-sm-12">
+    		    <label for="input-type">Account Type:</label>
+    		    <div id="input-type" class="row">
+    		      <div class="col-sm-6">
+    		        <label class="radio-inline">
+    		          <input name="account_type" id="input-type-gender0" value="Buyer" type="radio" />Buyer
+    		        </label>
+    		      </div> <!-- end of col -->
+    			    <div class="col-sm-6">
+    			      <label class="radio-inline">
+    			        <input name="account_type" id="input-type-gender1" value="Seller" type="radio" />Seller
+    			      </label>
+    			    </div><!-- end of col -->
+    		    </div> <!-- end of row -->
+    		  </div><!-- end of col -->
+		    </div><!-- end of form group -->
+		  </form>
+      <hr>
+      <hr>
+    </div><!--end of col-->
+  </div><!-- end of row-->
+
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <div class="col-md-2"></div>
+      <div class="col-md-6">
+        <button class="btn btn-primary"  onclick="checkLoginState()">-cebook Sign-In</button>
+      </div>
+      <div class="col-md-4"></div>
+    </div><!-- end of col -->
+    <div class="col-md-3"></div>
+  </div><!--end of row-->
+  <hr>
+  <footer class="footer">
+  	Ads Bids Space 2017
+  </footer>
+</div>
